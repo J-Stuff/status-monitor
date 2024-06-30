@@ -5,16 +5,17 @@ repo: status-monitor # The name of this repository
 sites:
   - name: Homepage
     url: https://j-stuff.net/
+    maxResponseTime: 5000
+    
   - name: Nextcloud
-    url: https://nextcloud.j-stuff.net/status.php/
-    headers:
-      - "Cache-Control: no-cache"
-      - "Pragma: no-cache"
-      - "Sec-Fetch-Site: none"
-      - "Sec-Fetch-User: ?1"
+    url: $NEXTCLOUD_CHECK_URL
+    expectedStatusCodes:
+      - 204
+    maxResponseTime: 5000
+    
   - name: Remote 1
     url: $REMOTE_1_STATUS_URL
-  
+    maxResponseTime: 5000
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
