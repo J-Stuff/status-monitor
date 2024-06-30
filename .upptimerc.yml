@@ -11,13 +11,6 @@ sites:
     url: https://cdn.j-stuff.net
     maxResponseTime: 5000
     
-  - name: Nextcloud
-    url: $NEXTCLOUD_CHECK_URL
-    expectedStatusCodes:
-      - 204
-    maxResponseTime: 5000
-    favicon: https://raw.githubusercontent.com/J-Stuff/status-monitor/master/assets/nextcloud.png
-    
   - name: Remote 1
     url: $REMOTE_1_STATUS_URL
     maxResponseTime: 5000
@@ -30,6 +23,7 @@ status-website:
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: j-stuff.net | Uptime
   introTitle: "j-stuff.net sitewide system status"
+  theme: night
   navbar:
     - title: Status
       href: /
