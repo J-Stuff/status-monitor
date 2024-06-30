@@ -16,7 +16,7 @@ sites:
     expectedStatusCodes:
       - 204
     maxResponseTime: 5000
-    favicon: https://github.com/J-Stuff/status-monitor/blob/master/assets/nextcloud.png?raw=true
+    favicon: https://raw.githubusercontent.com/J-Stuff/status-monitor/master/assets/nextcloud.png
     
   - name: Remote 1
     url: $REMOTE_1_STATUS_URL
