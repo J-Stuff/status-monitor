@@ -7,6 +7,11 @@ sites:
     url: https://j-stuff.net/
   - name: Nextcloud
     url: https://nextcloud.j-stuff.net/status.php/
+    headers:
+      - "Cache-Control: no-cache"
+      - "Pragma: no-cache"
+      - "Sec-Fetch-Site: none"
+      - "Sec-Fetch-User: ?1"
     __dangerous__body_down_if_text_missing: '"maintenance": false'
   - name: Remote 1
     url: $REMOTE_1_STATUS_URL
