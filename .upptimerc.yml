@@ -3,19 +3,14 @@ owner: j-stuff # Your GitHub organization or username, where this repository liv
 repo: status-monitor # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  - name: Homepage
+    url: https://j-stuff.net/
+  - name: Nextcloud
+    url: https://nextcloud.j-stuff.net/status.php
+    __dangerous__body_down_if_text_missing: '"maintenance": false'
+  - name: Remote 1
+    url: $REMOTE_1_STATUS_URL
+  
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
@@ -23,9 +18,8 @@ status-website:
   cname: status.j-stuff.net
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  name: j-stuff.net | Uptime
+  introTitle: "j-stuff.net sitewide system status"
   navbar:
     - title: Status
       href: /
