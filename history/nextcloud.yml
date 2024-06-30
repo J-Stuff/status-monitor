@@ -1,7 +1,0 @@
-url: $NEXTCLOUD_CHECK_URL
-status: up
-code: 204
-responseTime: 908
-lastUpdated: 2024-06-30T10:25:31.236Z
-startTime: 2024-06-30T09:34:01.831Z
-generator: Upptime <https://github.com/upptime/upptime>
