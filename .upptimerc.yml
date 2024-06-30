@@ -6,7 +6,7 @@ sites:
   - name: Homepage
     url: https://j-stuff.net/
   - name: Nextcloud
-    url: https://nextcloud.j-stuff.net/status.php
+    url: https://nextcloud.j-stuff.net/status.php/
     __dangerous__body_down_if_text_missing: '"maintenance": false'
   - name: Remote 1
     url: $REMOTE_1_STATUS_URL
