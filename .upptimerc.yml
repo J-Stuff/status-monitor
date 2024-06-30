@@ -12,7 +12,6 @@ sites:
       - "Pragma: no-cache"
       - "Sec-Fetch-Site: none"
       - "Sec-Fetch-User: ?1"
-    __dangerous__body_down_if_text_missing: '"maintenance": false'
   - name: Remote 1
     url: $REMOTE_1_STATUS_URL
   
