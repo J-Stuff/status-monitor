@@ -6,12 +6,17 @@ sites:
   - name: Homepage
     url: https://j-stuff.net/
     maxResponseTime: 5000
+
+  - name: CDN
+    url: https://cdn.j-stuff.net
+    maxResponseTime: 5000
     
   - name: Nextcloud
     url: $NEXTCLOUD_CHECK_URL
     expectedStatusCodes:
       - 204
     maxResponseTime: 5000
+    favicon: https://github.com/J-Stuff/status-monitor/blob/master/assets/nextcloud.png?raw=true
     
   - name: Remote 1
     url: $REMOTE_1_STATUS_URL
