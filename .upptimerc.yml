@@ -8,11 +8,15 @@ sites:
     maxResponseTime: 5000
 
   - name: CDN
-    url: https://cdn.j-stuff.net
+    url: https://cdn.j-stuff.net/
     maxResponseTime: 5000
     
   - name: Remote 1
     url: $REMOTE_1_STATUS_URL
+    maxResponseTime: 5000
+
+  - name: KaspBot
+    url: $KASPBOT_CHECK_URL
     maxResponseTime: 5000
 
 status-website:
