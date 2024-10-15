@@ -22,9 +22,9 @@
     "url": "https://cdn.j-stuff.net/",
     "icon": "https://icons.duckduckgo.com/ip3/cdn.j-stuff.net.ico",
     "slug": "cdn",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -33,7 +33,9 @@
     "timeWeek": 108,
     "timeMonth": 136,
     "timeYear": 144,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-10-15": 0
+    }
   },
   {
     "name": "Remote 1",
