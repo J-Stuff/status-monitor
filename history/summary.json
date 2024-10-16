@@ -11,9 +11,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 193,
-    "timeDay": 115,
-    "timeWeek": 155,
-    "timeMonth": 159,
+    "timeDay": 223,
+    "timeWeek": 172,
+    "timeMonth": 162,
     "timeYear": 193,
     "dailyMinutesDown": {}
   },
@@ -24,18 +24,16 @@
     "slug": "cdn",
     "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.68%",
-    "uptimeWeek": "99.95%",
-    "uptimeMonth": "99.99%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 144,
-    "timeDay": 91,
-    "timeWeek": 107,
-    "timeMonth": 135,
-    "timeYear": 144,
-    "dailyMinutesDown": {
-      "2024-10-15": 5
-    }
+    "time": 145,
+    "timeDay": 218,
+    "timeWeek": 130,
+    "timeMonth": 142,
+    "timeYear": 145,
+    "dailyMinutesDown": {}
   },
   {
     "name": "Remote 1",
@@ -48,11 +46,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 119,
-    "timeDay": 67,
-    "timeWeek": 110,
+    "time": 118,
+    "timeDay": 73,
+    "timeWeek": 108,
     "timeMonth": 120,
-    "timeYear": 119,
+    "timeYear": 118,
     "dailyMinutesDown": {}
   },
   {
@@ -67,8 +65,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 68,
-    "timeDay": 40,
-    "timeWeek": 60,
+    "timeDay": 43,
+    "timeWeek": 59,
     "timeMonth": 68,
     "timeYear": 68,
     "dailyMinutesDown": {}
