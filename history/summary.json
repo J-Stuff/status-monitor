@@ -22,19 +22,19 @@
     "url": "https://cdn.j-stuff.net/",
     "icon": "https://icons.duckduckgo.com/ip3/cdn.j-stuff.net.ico",
     "slug": "cdn",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.57%",
+    "uptimeWeek": "99.94%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "100.00%",
     "time": 141,
-    "timeDay": 169,
-    "timeWeek": 140,
-    "timeMonth": 128,
+    "timeDay": 142,
+    "timeWeek": 134,
+    "timeMonth": 127,
     "timeYear": 141,
     "dailyMinutesDown": {
-      "2024-11-13": 0
+      "2024-11-13": 6
     }
   },
   {
