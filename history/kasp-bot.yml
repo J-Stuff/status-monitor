@@ -1,7 +1,7 @@
 url: $KASPBOT_CHECK_URL
-status: up
-code: 200
-responseTime: 49
-lastUpdated: 2025-01-08T23:04:00.463Z
+status: down
+code: 0
+responseTime: 0
+lastUpdated: 2025-01-09T09:19:13.792Z
 startTime: 2024-07-13T00:22:10.159Z
 generator: Upptime <https://github.com/upptime/upptime>
